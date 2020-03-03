@@ -3,12 +3,13 @@
 //  return `Welcome, ${newName}. You are number ${katzDeliLine.length} in/ line.`
 //}
 
+var katzDeliLine = []
+
 function takeANumber(katzDeliLine) {
   var newNumber = katzDeliLine.length+1
   katzDeliLine.push(newNumber)
-  return ` You are number ${newNumber} in line.`
+  return `You are number ${newNumber} in line.`
 }
-
 console.log(takeANumber(katzDeliLine))
 
 function nowServing(katzDeliLine) {
